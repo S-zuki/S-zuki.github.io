@@ -1,16 +1,69 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: splash
-author_profile: true
+title: "Yosuke Suzuki"
+permalink: /
+
 header:
-  overlay_image: /assets/images/header.jpg
-  overlay_filter: 0.3
-  actions:
-    - label: "Projects"
-      url: "/projects/"
-    - label: "Publications"
-      url: "/publications/"
+  overlay_color: "#222"
+
+excerpt: >
+  Assistant Professor<br>
+  Kanazawa University
+
+feature_row:
+
+  - image_path: /assets/images/project-proximity.jpg
+    alt: "Proximity Hand"
+    title: "Proximity Hand"
+    excerpt: "Soft robotic hand for object manipulation."
+    url: "/projects/proximity-hand/"
+    btn_label: "Read More"
+
+  - image_path: /assets/images/project-parallel.jpg
+    alt: "Parallel Robot"
+    title: "Parallel Robot"
+    excerpt: "High-speed robotic manipulation."
+    url: "/projects/parallel-robot/"
+    btn_label: "Read More"
+
+  - image_path: /assets/images/project-agri.jpg
+    alt: "Agricultural Robotics"
+    title: "Agricultural Robotics"
+    excerpt: "Robotic harvesting and precision agriculture."
+    url: "/projects/agricultural-robotics/"
+    btn_label: "Read More"
+
 ---
 
+# Welcome
+
+My research interests include
+
+- Robot Manipulation
+- Soft Robotics
+- Agricultural Robotics
+- Robot Learning
+
+---
+
+## Featured Projects
+
+{% raw %}
+{% include feature_row %}
+{% endraw %}
+
+---
+
+## Recent Publications
+
+See the complete list on the
+[Publications](/publications/)
+page.
+
+---
+
+## Open Source
+
+Software developed in our laboratory is available on GitHub.
+
+[GitHub →](https://github.com/S-zuki)
